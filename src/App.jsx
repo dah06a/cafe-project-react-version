@@ -1,10 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import MainNavbar from './MainNavbar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <MainNavbar />
       <Container>
         <Row>
           <Col>1</Col>

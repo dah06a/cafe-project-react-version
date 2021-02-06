@@ -1,3 +1,21 @@
+:root {
+  --theme-black: #0B0C10;
+  --theme-dark: #1F2833;
+  --theme-light: #C5C6C7;
+  --theme-white: #fff;
+  --theme-primary: #66FCF1;
+  --theme-secondary: #45A29E;
+}
+
+.navbar {
+  background-color: var(--theme-dark);
+}
+
+.navbar a {
+  color: var(--theme-primary);
+  text-decoration: none;
+}
+
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
