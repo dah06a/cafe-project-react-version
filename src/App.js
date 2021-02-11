@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import MainNavbar from './MainNavbar';
+import MainNavbar from './components/MainNavbar';
 import './App.css';
 
 function App() {
