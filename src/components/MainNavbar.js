@@ -15,7 +15,8 @@ const MainNavbar = (props) => <Navbar collapseOnSelect expand="md" className="na
 
     <Navbar.Collapse id="navbar-collapse">
         <Nav className="ml-auto">
-            <Nav.Link>About</Nav.Link>
+            <Nav.Link active>Home</Nav.Link>
+            <Nav.Link >About</Nav.Link>
             <Nav.Link>Games</Nav.Link>
             <Nav.Link>Food</Nav.Link>
             <Nav.Link>Reserve</Nav.Link>
