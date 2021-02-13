@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Games from './components/Games';
-import Menu from './components/Menu';
-import Reserve from './components/Reserve';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Games from './components/games/Games';
+import Menu from './components/menu/Menu';
+import Reserve from './components/reserve/Reserve';
 import './App.css';
 
 class App extends Component {

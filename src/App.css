@@ -21,41 +21,6 @@ code {
     monospace;
 }
 
-.home-content {
-  height: 100vh;
-  background-color: var(--theme-light);
-}
-
-.home-img-1 {
-  height: 100vh;
-  background-image: url(images/catan.jpeg);
-}
-
-.home-landing {
-  height: 80vh;
-  background-image: linear-gradient(45deg, var(--theme-black), var(--theme-dark));
-  overflow: hidden;
-}
-
-
-.navbar a {
-  color: var(--theme-light) !important;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: var(--theme-primary) !important;
-  font-family: 'Reggae One', cursive;
-}
-
-.navbar a.active {
-  color: var(--theme-secondary) !important;
-}
-
-.navbar-toggler:hover {
-  background-color: var(--theme-secondary);
-}
-
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChessRook } from '@fortawesome/free-solid-svg-icons'
-import '../App.css';
+import './MainNavbar.css';
 
 const MainNavbar = (props) => <Navbar collapseOnSelect expand="md" className="navbar" variant="dark">
 
