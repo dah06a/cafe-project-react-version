@@ -21,6 +21,11 @@ code {
     monospace;
 }
 
+.home-content {
+  height: 100vh;
+  background-color: var(--theme-light);
+}
+
 .home-img-1 {
   height: 100vh;
   background-image: url(images/catan.jpeg);
