@@ -1,3 +1,7 @@
+.navbar {
+  background-color: var(--theme-dark);
+}
+
 .navbar a {
     color: var(--theme-light) !important;
     text-decoration: none;
