@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import HomeLanding from './HomeLanding';
+import HomeContent from './HomeContent';
 import './Home.css';
 
 const Home = (props) => {
@@ -9,13 +10,7 @@ const Home = (props) => {
 
             <HomeLanding />
 
-            <Container fluid className="home-content parallax">
-                <Row className="h-100 align-items-center">
-                    <Col className="text-center">
-                        <h1>Home Content</h1>
-                    </Col>
-                </Row>
-            </Container>
+            <HomeContent />
 
             <Container fluid className="home-img-1 parallax">
 

@@ -1,6 +1,6 @@
 .home-content {
     height: 100vh;
-    background-color: var(--theme-light);
+    background-image: linear-gradient(225deg, var(--theme-light) 60%, var(--theme-secondary));
   }
 
   .home-img-1 {
@@ -12,6 +12,11 @@
     height: 80vh;
     background-image: linear-gradient(45deg, var(--theme-black), var(--theme-dark));
     overflow: hidden;
+  }
+
+  .home-tabs {
+    height: 80%;
+    padding: 10px;
   }
 
   @media only screen and (max-width: 767px) {
