@@ -45,6 +45,29 @@
   padding: 10px;
 }
 
+.scroll {
+  color: var(--theme-secondary);
+  font-size: xx-large;
+  animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-50%);
+    color: var(--theme-secondary);
+  }
+
+  50% {
+    transform: translateY(50%);
+    color: var(--theme-primary);
+  }
+
+  100% {
+    transform: translateY(-50%);
+    color: var(--theme-secondary);
+  }
+}
+
   @media only screen and (max-width: 767px) {
     .home-landing-img {
       width: 70%;

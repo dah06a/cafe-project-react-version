@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
-import MainNavbar from './components/navigation/MainNavbar';
-import MainFooter from './components/navigation/MainFooter';
+import MainNavbar from './components/shared/MainNavbar';
+import MainFooter from './components/shared/MainFooter';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Games from './components/games/Games';

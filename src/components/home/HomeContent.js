@@ -49,26 +49,29 @@ const HomeContent = (props) => {
         </ul>
     </React.Fragment>
 
-    const photosTab = <Carousel className="w-100">
-        <Carousel.Item className="carousel-item">
-            <Image className="carousel-image" src={emptyBar} alt="Empty Bar" />
-        </Carousel.Item>
-        <Carousel.Item className="carousel-item">
-            <Image className="carousel-image" src={gameDrinks} alt="Playing With Drinks" />
-        </Carousel.Item>
-        <Carousel.Item className="carousel-item">
-            <Image className="carousel-image" src={gameLibrary} alt="Game Library"/>
-        </Carousel.Item>
-        <Carousel.Item className="carousel-item">
-            <Image className="carousel-image" src={risk} alt="Risk"/>
-        </Carousel.Item>
-        <Carousel.Item className="carousel-item">
-            <Image className="carousel-image" src={nachos} alt="Spicy Nachos" />
-        </Carousel.Item>
-    </Carousel>
+    const photosTab = <React.Fragment>
+        <h1>Photos</h1>
+        <Carousel className="w-100">
+            <Carousel.Item className="carousel-item">
+                <Image className="carousel-image" src={emptyBar} alt="Empty Bar" />
+            </Carousel.Item>
+            <Carousel.Item className="carousel-item">
+                <Image className="carousel-image" src={gameDrinks} alt="Playing With Drinks" />
+            </Carousel.Item>
+            <Carousel.Item className="carousel-item">
+                <Image className="carousel-image" src={gameLibrary} alt="Game Library"/>
+            </Carousel.Item>
+            <Carousel.Item className="carousel-item">
+                <Image className="carousel-image" src={risk} alt="Risk"/>
+            </Carousel.Item>
+            <Carousel.Item className="carousel-item">
+                <Image className="carousel-image" src={nachos} alt="Spicy Nachos" />
+            </Carousel.Item>
+        </Carousel>
+    </React.Fragment>
 
     return (
-        <Container fluid className="home-content">
+        <Container fluid className="home-content" id="home-content">
             <Row className="h-100 align-items-sm-start align-items-md-center justify-content-center">
                 <Col md={10} xl={8} className="text-center home-tabs">
                     <Tab.Container defaultActiveKey="info">

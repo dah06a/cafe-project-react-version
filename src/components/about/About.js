@@ -1,10 +1,13 @@
 import React from 'react';
+import Landing from '../shared/Landing';
+import AboutStory from './AboutStory';
 
 const About = (props) => {
-    return(
-        <div>
-            <h1>About</h1>
-        </div>
+    return (
+        <React.Fragment>
+            <Landing title="About" image="show-off-games.jpg" />
+            <AboutStory />
+        </React.Fragment>
     );
 }
 

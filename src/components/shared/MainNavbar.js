@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChessRook } from '@fortawesome/free-solid-svg-icons'
-import './Navigation.css';
+import './Shared.css';
 
 const MainNavbar = (props) => {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faYelp, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import './Navigation.css';
+import './Shared.css';
 
 const MainFooter = (props) => {
     return (
