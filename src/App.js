@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
 import MainNavbar from './components/navigation/MainNavbar';
+import MainFooter from './components/navigation/MainFooter';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Games from './components/games/Games';
@@ -23,6 +24,7 @@ class App extends Component {
                     <Route path="/" component={Home} />
                     <Redirect to="/" />
                 </Switch>
+                <MainFooter />
             </React.Fragment>
 
         );

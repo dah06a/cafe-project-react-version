@@ -1,23 +1,49 @@
+.carousel-item{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .home-content {
-    height: 100vh;
-    background-image: linear-gradient(225deg, var(--theme-light) 60%, var(--theme-secondary));
-  }
+  height: 100vh;
+  background-image: linear-gradient(225deg, var(--theme-light) 60%, var(--theme-secondary));
+}
 
-  .home-img-1 {
-    height: 100vh;
-    background-image: url(../../images/catan.jpeg);
-  }
+.home-img-1 {
+  height: 100vh;
+  background-image: url(../../images/catan.jpeg);
+}
 
-  .home-landing {
-    height: 80vh;
-    background-image: linear-gradient(45deg, var(--theme-black), var(--theme-dark));
-    overflow: hidden;
-  }
+.home-img-2 {
+  height: 100vh;
+  background-image: url(../../images/pandemic.jpg);
+}
 
-  .home-tabs {
-    height: 80%;
-    padding: 10px;
-  }
+.home-landing {
+  height: 100vh;
+  background-image: linear-gradient(45deg, var(--theme-black), var(--theme-dark));
+  overflow: hidden;
+}
+
+.home-pill {
+  color: var(--theme-dark) !important;
+}
+
+.home-pill.active {
+  background-color: var(--theme-dark) !important;
+  color: var(--theme-secondary) !important;
+}
+
+.home-tabs {
+  height: 80%;
+  padding: 10px;
+}
 
   @media only screen and (max-width: 767px) {
     .home-landing-img {
