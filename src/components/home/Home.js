@@ -1,17 +1,17 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import HomeLanding from './HomeLanding';
 import HomeContent from './HomeContent';
 import HomeEnd from './HomeEnd';
+import PageDivider from '../shared/PageDivider';
 import './Home.css';
 
 const Home = (props) => {
     return(
         <React.Fragment>
             <HomeLanding />
-            <Container fluid className="home-img-1 parallax" />
+            <PageDivider image="catan.jpeg" />
             <HomeContent />
-            <Container fluid className="home-img-2 parallax" />
+            <PageDivider image="pandemic.jpg" />
             <HomeEnd />
         </React.Fragment>
     );

@@ -15,16 +15,6 @@
   background-image: linear-gradient(225deg, var(--theme-light) 60%, var(--theme-secondary));
 }
 
-.home-img-1 {
-  height: 100vh;
-  background-image: url(../../images/catan.jpeg);
-}
-
-.home-img-2 {
-  height: 100vh;
-  background-image: url(../../images/pandemic.jpg);
-}
-
 .home-landing {
   height: 100vh;
   background-image: linear-gradient(45deg, var(--theme-black), var(--theme-dark));

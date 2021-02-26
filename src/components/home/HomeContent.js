@@ -1,11 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav, Carousel, Image } from 'react-bootstrap';
 import exampleMap from '../../images/example-map.png';
-import emptyBar from '../../images/empty-bar.jpg';
 import gameDrinks from '../../images/game-with-drinks.jpg';
 import gameLibrary from '../../images/game-library-3.jpg';
 import risk from '../../images/risk.jpeg';
-import nachos from '../../images/spicy-nachos.jpg';
 
 const HomeContent = (props) => {
 
@@ -53,9 +51,6 @@ const HomeContent = (props) => {
         <h1>Photos</h1>
         <Carousel className="w-100">
             <Carousel.Item className="carousel-item">
-                <Image className="carousel-image" src={emptyBar} alt="Empty Bar" />
-            </Carousel.Item>
-            <Carousel.Item className="carousel-item">
                 <Image className="carousel-image" src={gameDrinks} alt="Playing With Drinks" />
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
@@ -63,9 +58,6 @@ const HomeContent = (props) => {
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
                 <Image className="carousel-image" src={risk} alt="Risk"/>
-            </Carousel.Item>
-            <Carousel.Item className="carousel-item">
-                <Image className="carousel-image" src={nachos} alt="Spicy Nachos" />
             </Carousel.Item>
         </Carousel>
     </React.Fragment>

@@ -1,0 +1,7 @@
+.menu-section {
+    height: 100vh;
+    background-image: linear-gradient(var(--theme-dark), var(--theme-black));
+    padding: 2%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
