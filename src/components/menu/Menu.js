@@ -7,14 +7,14 @@ const Menu = (props) => {
     return(
         <React.Fragment>
             <Landing title="Menu" image="empty-bar.jpg" />
-            <PageDivider image="spicy-nachos.jpg" />
             <MenuSection title="Appetizers" />
-            <PageDivider image="bar-drinks.jpg" />
+            <PageDivider image="spicy-nachos.jpg" />
             <MenuSection title="Drinks" />
-            <PageDivider image="coffee-and-cream.jpg" />
+            <PageDivider image="bar-drinks.jpg" />
             <MenuSection title="Cafe" />
-            <PageDivider image="burger-fries-beer.jpg" />
+            <PageDivider image="coffee-and-cream.jpg" />
             <MenuSection title="Entrees" />
+            <PageDivider image="burger-fries-beer.jpg" />
         </React.Fragment>
     );
 }
