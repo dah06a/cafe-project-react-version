@@ -15,13 +15,12 @@ const PlayGameSection = (props) => {
             </Row>
             <Row className="h-50">
                 <Col sm={10} className="h-100 mx-auto text-center">
-                    <CanvasArea />
+                    <CanvasArea width={window.innerWidth*0.7} height={window.innerHeight*0.5} />
                 </Col>
             </Row>
             <Row className="h-25">
-                <Col className="mx-auto text-center">
-                    <Button id="gameOverBtn" className ="success my-2">Play Snake</Button>
-                    <h4 id="scoreTitle">Score: 0</h4>
+                <Col className="m-auto text-center">
+                    <Button id="gameOverBtn" className ="success">Play Snake</Button>
                 </Col>
             </Row>
         </Container>
