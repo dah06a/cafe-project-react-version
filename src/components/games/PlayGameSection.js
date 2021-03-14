@@ -13,14 +13,9 @@ const PlayGameSection = (props) => {
                     <p style={{color: "var(--theme-light)"}}>Don't hit edges, or yourself!</p>
                 </Col>
             </Row>
-            <Row className="h-50">
+            <Row className="h-75">
                 <Col sm={10} className="h-100 mx-auto text-center">
-                    <CanvasArea width={window.innerWidth*0.7} height={window.innerHeight*0.5} />
-                </Col>
-            </Row>
-            <Row className="h-25">
-                <Col className="m-auto text-center">
-                    <Button id="gameOverBtn" className ="success">Play Snake</Button>
+                    <CanvasArea width={window.innerWidth*0.7} height={window.innerHeight*0.6} />
                 </Col>
             </Row>
         </Container>
