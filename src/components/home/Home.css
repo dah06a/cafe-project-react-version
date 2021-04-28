@@ -21,6 +21,14 @@
   overflow: hidden;
 }
 
+.home-landing-img {
+  width: 1000px;
+  height: 1000px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
 .home-pill {
   color: var(--theme-dark) !important;
 }

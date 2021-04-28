@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Tab, Nav, Carousel, Image } from 'react-bootstrap';
 import exampleMap from '../../images/example-map.png';
-import gameDrinks from '../../images/game-with-drinks.jpg';
+import gameDrinks from '../../images/drink-variety.png';
 import gameLibrary from '../../images/game-library-3.jpg';
+import fullTables from '../../images/full-tables.jpg';
 import risk from '../../images/risk.jpeg';
 
 const HomeContent = (props) => {
@@ -49,15 +50,18 @@ const HomeContent = (props) => {
 
     const photosTab = <React.Fragment>
         <h1>Photos</h1>
-        <Carousel className="w-100">
+        <Carousel className="w-100" >
             <Carousel.Item className="carousel-item">
-                <Image className="carousel-image" src={gameDrinks} alt="Playing With Drinks" />
+                <Image className="carousel-image" src={fullTables} alt="Patrons At Cafe" />
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
                 <Image className="carousel-image" src={gameLibrary} alt="Game Library"/>
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
-                <Image className="carousel-image" src={risk} alt="Risk"/>
+                <Image className="carousel-image" src={risk} alt="Friends Playing Risk"/>
+            </Carousel.Item>
+            <Carousel.Item className="carousel-item">
+                <Image className="carousel-image" src={gameDrinks} alt="Cafe Drinks"/>
             </Carousel.Item>
         </Carousel>
     </React.Fragment>

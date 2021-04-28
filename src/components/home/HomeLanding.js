@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import FullTablesImg from '../../images/full-tables.jpg';
+import GoGame from '../../images/go.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,7 +17,7 @@ const HomeLanding = (props) => {
                     </Row>
                 </Col>
                 <Col md={6} className="my-auto">
-                    <Image src={FullTablesImg} alt="Cafe" className="home-landing-img" roundedCircle />
+                    <Image src={GoGame} alt="Game of Go" className="home-landing-img" />
                 </Col>
             </Row>
         </Container>

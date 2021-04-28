@@ -11,7 +11,7 @@ const Home = (props) => {
             <HomeLanding />
             <PageDivider image="catan.jpeg" />
             <HomeContent />
-            <PageDivider image="pandemic.jpg" />
+            <PageDivider image="pandemic-close.jpg" />
             <HomeEnd />
         </React.Fragment>
     );
